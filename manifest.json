@@ -1,0 +1,10 @@
+{
+    "display_name": "Gemini Tool Signature Fallback",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Local",
+    "version": "1.1.0"
+}

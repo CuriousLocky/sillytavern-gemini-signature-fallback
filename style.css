@@ -1,0 +1,46 @@
+#gsf-settings {
+    margin: 0.75em 0;
+    padding: 0.75em;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 8px;
+}
+
+#gsf-settings summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#gsf-settings section {
+    margin-top: 1em;
+}
+
+#gsf-settings p {
+    font-size: 0.9em;
+}
+
+#gsf-settings .gsf-list {
+    list-style: none;
+    padding: 0;
+}
+
+#gsf-settings .gsf-list li,
+#gsf-settings .gsf-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#gsf-settings .gsf-list span {
+    flex: 1;
+    overflow-wrap: anywhere;
+    min-width: 0;
+}
+
+#gsf-settings .gsf-controls input {
+    flex: 1;
+    min-width: 0;
+}
+
+#gsf-settings .gsf-error:empty {
+    display: none;
+}
